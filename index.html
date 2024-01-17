@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Chariscloud</title>
+  <link rel="preload" href="fonts/Kanit-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Kanit-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Kanit-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container__fluid">
+    <div class="header__wrap">
+      <a href="#" class="header__logo"><img src="img/logo.svg" alt=""></a>
+      <nav class="nav" title="Main menu" data-menu>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="training.html" class="nav__link">Trainings</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Corporate Services</a>
+            <ul class="sub-menu">
+              <li><a href="#">Private cloud training</a></li>
+              <li><a href="#">Private cloud workshops</a></li>
+              <li><a href="#">Cloud security design</a></li>
+              <li><a href="#">Cloud security assessments</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">Books</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__avatar">
+        <img src="img/avatar-min.jpg" alt="">
+      </div>
+      <a href="#" class="header__registration header__btn btn--light">Sign In</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main class="main">
+      <section class="promo" style="background-image: url('img/promo-homepage-bg.png');">
+        <div class="container">
+          <div class="promo__wrap wow animate__animated animate__bounceInRight" data-wow-duration="2s">
+            <h1 class="promo__title">Learn cloud security, development and architecture from industry experts</h1>
+            <a href="#" class="promo__btn btn--light">explore trainings</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="courses">
+        <div class="container">
+          <div class="courses__wrap">
+            <h2 class="courses__title">New courses and workshops</h2>
+            <div class="courses__descr">I provide 2 days of advanced, in-person or remote, private training to companies on AWS security.This is useful for security teams securing own their AWS environments, incident responders, pentesters,developers, and more. This training is fast paced and densely packed.</div>
+            <ul class="cards">
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2s">
+                <div>
+                  <a href="#" class="card-item">
+                    <div class="card-item__image">
+                      <img src="img/courses-img-1.jpg" alt="">
+                      <span class="card-item__label-price" style="background-image: url('img/price-backig.png');">£520</span>
+                    </div>
+                    <div class="card-item__content">
+                      <h3 class="card-item__name">Developer/DevOps Bundle</h3>
+                      <span class="card-item__indiv">INDIVIDUAL</span>
+                      <p class="card-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat, quam non sagittis ullamcorper, justo libero varius lorem, non tristique odio tellus non leo. Suspendisse placerat neque eu convallis mollis.</p>
+                      <a href="#" class="card-item__btn btn--dark">book now</a>
+                    </div>
+                  </a>
+                </div>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2.2s">
+                <article class="card-item">
+                  <div class="card-item__image">
+                    <img src="img/courses-img-2.jpg" alt="">
+                    <span class="card-item__label-price" style="background-image: url('img/price-backig.png');">£120</span>
+                  </div>
+                  <div class="card-item__content">
+                    <h3 class="card-item__name">Security Engineer Bundle</h3>
+                    <span class="card-item__indiv">INDIVIDUAL</span>
+                    <p class="card-item__text">Donec accumsan in enim a volutpat. In non convallis nunc. Duis at pretium elit. Suspendisse ut neque massa. Nulla efficitur fermentum lobortis. Suspendisse pharetra accumsan bibendum. </p>
+                    <a href="#" class="card-item__btn btn--dark">book now</a>
+                  </div>
+                </article>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2.4s">
+                <article class="card-item">
+                  <div class="card-item__image">
+                    <img src="img/courses-img-3.jpg" alt="">
+                    <span class="card-item__label-price" style="background-image: url('img/price-backig.png');">£95</span>
+                  </div>
+                  <div class="card-item__content">
+                    <h3 class="card-item__name">Azure AI Engineer</h3>
+                    <span class="card-item__indiv">INDIVIDUAL</span>
+                    <p class="card-item__text">Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Donec eu porttitor sem. Morbi non blandit neque, et tristique odio. Nulla facilisi. Cras pretium orci sed massa malesuada.</p>
+                    <a href="#" class="card-item__btn btn--dark">book now</a>
+                  </div>
+                </article>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2.6s">
+                <article class="card-item">
+                  <div class="card-item__image">
+                    <img src="img/courses-img-4.jpg" alt="">
+                    <span class="card-item__label-price" style="background-image: url('img/price-backig.png');">£153</span>
+                  </div>
+                  <div class="card-item__content">
+                    <h3 class="card-item__name">Azure DevOps Engineer</h3>
+                    <span class="card-item__indiv">INDIVIDUAL</span>
+                    <p class="card-item__text">Sed non mi a tortor accumsan pharetra ac vel lacus. Vestibulum venenatis a arcu finibus ultrices. Nam viverra neque sed elit venenatis, quis lobortis libero scelerisque. </p>
+                    <a href="#" class="card-item__btn btn--dark">book now</a>
+                  </div>
+                </article>
+              </li>
+            </ul>
+            <button class="btn--dark courses__btn-all">all trainings & workshops</button>
+          </div>
+        </div>
+      </section>
+
+      <section class="books">
+        <div class="container">
+          <div class="books__wrap">
+            <h2 class="books__title">Books</h2>
+            <ul class="cards">
+  <li class="cards__item wow animate__animated animate__zoomIn" data-wow-duration="2s">
+    <article class="card-item">
+      <div class="card-item__image">
+        <img src="img/books-img-1.png" alt="">
+      </div>
+      <div class="card-item__content">
+        <h3 class="card-item__name">Penetration Testing Azure for Ethical Hackers</h3>
+        <p class="card-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut placerat, quam non sagittis ullamcorper, justo libero varius lorem, non tristique odio tellus non leo.</p>
+        <div class="card-item__price">£ 17.54</div>
+        <a href="#" class="card-item__btn btn--dark">book now</a>
+      </div>
+    </article>
+  </li>
+  <li class="cards__item wow animate__animated animate__zoomIn" data-wow-duration="2s">
+    <article class="card-item">
+      <div class="card-item__image">
+        <img src="img/books-img-2.png" alt="">
+      </div>
+      <div class="card-item__content">
+        <h3 class="card-item__name">Microsoft Azure Security Technologies Certification</h3>
+        <p class="card-item__text">Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Curabitur at finibus libero. Praesent varius scelerisque turpis. </p>
+        <div class="card-item__price">£ 17.54</div>
+        <a href="#" class="card-item__btn btn--dark">book now</a>
+      </div>
+    </article>
+  </li>
+</ul>
+
+          </div>
+        </div>
+      </section>
+
+      <section class="security">
+        <div class="container">
+          <div class="security__wrap">
+            <div class="security__image">
+              <img src="img/learn-cloud-security.jpg" alt="">
+            </div>
+            <div class="security__content wow animate__animated animate__bounceInRight" data-wow-duration="2s">
+              <h2 class="security__title">Learn cloud security, development and architecture with these experts</h2>
+              <div class="security__name">David Okeyode</div>
+              <div class="security__prof">Certified Instructor and Principal Consultant</div>
+              <div class="security__text">David is an independent Azure Security practitioner helping companies to secure their Azure environments through private expert level trainings and assessments. He has authored two books on Azure security – “Penetration Testing Azure for Ethical Hackers” and “Microsoft Azure Security Technologies Certification and Beyond” (https://amzn.to/3C7mrcL). He has also authored multiple cloud computing courses for the popular cybersecurity training platform – Cybrary. He holds over 15 cloud certifications across Azure and AWS platforms, including the Azure Security Engineer, Azure DevOps, and AWS Security Specialist certifications.</div>
+              <a href="#" class="security__btn btn--dark">learn more</a>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="testimonials">
+        <div class="container">
+          <div class="testimonials__wrap">
+  <h2 class="testimonials__title">What do students say about our training experience</h2>
+  <div class="testimonials__slider">
+    <div class="swiper swiper-testimonials">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              David had fantastic in depth knowledge of all processes which we're being taught.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              A big help when the instructions didn't match what was on screen and the few times something went wrong.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              David is a very friendly and knowledgeable trainer with great skills. Outstanding first class training.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              David had fantastic in depth knowledge of all processes which we're being taught.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              A big help when the instructions didn't match what was on screen and the few times something went wrong.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+        <div class="swiper-slide testimonials__slide">
+          <div class="testimonials__image">
+            <img src="img/quotes.svg" alt="">
+          </div>
+          <div class="testimonials__content">
+            <div class="testimonials__text">
+              David is a very friendly and knowledgeable trainer with great skills. Outstanding first class training.
+            </div>
+            <div class="testimonials__date">Start date: <span>31/10/2022</span></div>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+</div>
+
+        </div>
+      </section>
+
+      <section class="services" style="background-color: #F9F9F9">
+        <div class="container">
+          <div class="services__wrap">
+            <h2 class="services__title">Corporate Services</h2>
+            <ul class="cards">
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2s">
+                <article class="card-item">
+                    <h3 class="card-item__name">Private cloud training</h3>
+                    <p class="card-item__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam bibendum augue ipsum, eu tempor nisi rhoncus quis. Morbi tortor diam, tincidunt non nibh eu, rhoncus vestibulum lectus. Sed auctor ex vitae euismod pharetra. In et blandit sapien.</p>
+                    <a href="#" class="card-item__btn btn--dark">learn more</a>
+                </article>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2s">
+                <article class="card-item">
+                    <h3 class="card-item__name">Private cloud workshops</h3>
+                    <p class="card-item__text">Nunc nec rhoncus metus, a mollis felis. Nulla lacinia tellus nec tincidunt pretium. Aliquam justo neque, euismod non consequat sed, convallis non est. Vestibulum placerat sit amet lacus quis aliquam. Ut a arcu nec lacus blandit semper nec a arcu. </p>
+                    <a href="#" class="card-item__btn btn--dark">learn more</a>
+                </article>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2s">
+                <article class="card-item">
+                    <h3 class="card-item__name">Cloud Security Design</h3>
+                    <p class="card-item__text">Nullam tempus commodo tempus. Aliquam feugiat nisl ac neque semper tincidunt. Phasellus eget justo est. Donec varius eros ligula, eget vehicula elit porttitor non. Curabitur in odio metus.</p>
+                    <a href="#" class="card-item__btn btn--dark">learn more</a>
+                </article>
+              </li>
+              <li class="cards__item wow animate__animated animate__bounceInUp" data-wow-duration="2s">
+                <article class="card-item">
+                    <h3 class="card-item__name">Cloud Security Assessments</h3>
+                    <p class="card-item__text">Donec sollicitudin sapien vitae nulla molestie, non molestie eros pretium. Donec tempor neque maximus mauris suscipit, nec finibus quam porta. Donec accumsan in tortor vestibulum dapibus. Vivamus sed pellentesque nisl.</p>
+                    <a href="#" class="card-item__btn btn--dark">learn more</a>
+                </article>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+    </main>
+
+
+
+    <footer class="footer" style="background-color: #03111D">
+  <div class="container">
+    <div class="subscribe" style="background-image: url('img/backing-subscribe.png');">
+      <h3 class="subscribe__title">Subscribe to our newsletter right now & get special offers</h3>
+      <div class="subscribe__form">
+        <form action="#" class="form">
+          <label for="subscribe">
+            <input id="subscribe" type="email" name="subscribe" class="subscribe__input" placeholder="Your email" required>
+          </label>
+          <button class="btn-reset subscribe__btn"><img src="img/send.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__wrap">
+      <div class="footer__navigation">
+        <a href="#" class="logo__footer"><img src="img/logo.svg" alt=""></a>
+        <nav class="nav-footer" title="Footer menu" data-menu>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="index.html" class="footer__link active">Home</a></li>
+            <li class="footer__item"><a href="about.html" class="footer__link">About Us</a></li>
+            <li class="footer__item"><a href="training.html" class="footer__link">Trainings</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Corporate Services</a>
+              <ul class="sub-menu">
+                <li><a href="#">Private cloud training</a></li>
+                <li><a href="#">Private cloud workshops</a></li>
+                <li><a href="#">Cloud security design</a></li>
+                <li><a href="#">Cloud security assessments</a></li>
+              </ul>
+            </li>
+            <li class="footer__item"><a href="#" class="footer__link">Books</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="social" title="">
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Our page in Facebook"><img src="img/facebook.svg" alt=""></a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--vk" aria-label="Our page in Twitter"><img src="img/twitter.svg" alt=""></a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--tw" aria-label="Our page in Linkedin"><img src="img/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__design">
+          © <span class="year"></span> Charis Cloud. All Rights Reserved. Designed by <a href="https://webcapitan.com" target="_blank">Webcapitan</a>.
+        </div>
+        <div class="footer__policy">
+          <a href="#">Terms of Service</a>
+          <a href="#"> Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="js/main.js"></script>
+
+<div class="all_pages">
+  <div class="page_point">Pages</div>
+  <ul class="page_list">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="training.html">Training and Workshop</a></li>
+    <li><a href="individual-training.html">individual Training</a></li>
+    <li><a href="books.html">Books and Publications</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="create-account.html">Create Account</a></li>
+    <li><a href="reset-password.html">Reset password</a></li>
+    <li><a href="private-training.html">Private cloud training</a></li>
+    <li><a href="profile.html">Profile Account</a></li>
+    <li><a href="orders.html">Profile Orders</a></li>
+    <li><a href="cart.html">Shopping Cart</a></li>
+    <li><a href="checkout.html">Checkout</a></li>
+  </ul>
+</div>
+
+
+  </div>
+</body>
+
+</html>

@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en" class="page">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="theme-color" content="#111111">
+  <title>Chariscloud</title>
+  <link rel="preload" href="fonts/Kanit-Bold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Kanit-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Kanit-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/Montserrat-Medium.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-SemiBold.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="fonts/OpenSans-Regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+  />
+  <link href="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/css/select2.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="css/vendor.css">
+  <link rel="stylesheet" href="css/main.css">
+</head>
+
+
+<body class="page__body">
+  <div class="site-container">
+    <header class="header">
+  <div class="container__fluid">
+    <div class="header__wrap">
+      <a href="#" class="header__logo"><img src="img/logo.svg" alt=""></a>
+      <nav class="nav" title="Main menu" data-menu>
+        <ul class="nav__list">
+          <li class="nav__item"><a href="index.html" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="about.html" class="nav__link">About Us</a></li>
+          <li class="nav__item"><a href="training.html" class="nav__link">Trainings</a></li>
+          <li class="nav__item">
+            <a href="#" class="nav__link">Corporate Services</a>
+            <ul class="sub-menu">
+              <li><a href="#">Private cloud training</a></li>
+              <li><a href="#">Private cloud workshops</a></li>
+              <li><a href="#">Cloud security design</a></li>
+              <li><a href="#">Cloud security assessments</a></li>
+            </ul>
+          </li>
+          <li class="nav__item"><a href="#" class="nav__link">Books</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+          <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+      <div class="header__avatar">
+        <img src="img/avatar-min.jpg" alt="">
+      </div>
+      <a href="#" class="header__registration header__btn btn--light">Sign In</a>
+      <button class="burger" aria-label="Open menu" aria-expanded="false" data-burger>
+        <span class="burger__line"></span>
+      </button>
+    </div>
+  </div>
+</header>
+
+
+    <main class="main">
+      <section class="hero hero-training" style="background-image: url('img/create-bg.jpg');">
+        <div class="container">
+          <div class="hero__wrap wow animate__animated animate__bounceInRight" data-wow-duration="2s">
+            <h1 class="hero__title title">Create account</h1>
+            <nav aria-label="breadcrumb">
+              <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="#">Home</a></li>
+                <li class="breadcrumb-item active" aria-current="page">Create account</li>
+              </ol>
+            </nav>
+          </div>
+        </div>
+      </section>
+
+      <section class="create">
+        <div class="container">
+          <div class="create__form">
+            <h2 class="create__title">Join our Community</h2>
+            <form action="#" class="create__form">
+              <div class="create__group">
+                <label class="create__label">
+                  <span>First name</span>
+                  <input type="text" name="firstName" placeholder="Your First name" required>
+                </label>
+                <label class="create__label">
+                  <span>Last name</span>
+                  <input type="text" name="lastName" placeholder="Your Last name" required>
+                </label>
+              </div>
+              <div class="create__group">
+                <label class="create__label">
+                  <span>email</span>
+                  <input type="email" name="email" placeholder="Your Email" required>
+                </label>
+                <label class="create__label">
+                  <span>phone</span>
+                  <input type="tel" name="phone" placeholder="Your phone number" required>
+                </label>
+              </div>
+              <label class="create__label">
+                <span>organization</span>
+                <input type="text" name="organization" placeholder="Your organization" required>
+              </label>
+              <div class="create__group">
+                <label class="create__label">
+                  <span>password</span>
+                  <input type="password" name="pass" placeholder="Your Password" required>
+                </label>
+                <label class="create__label">
+                  <span>confirm password</span>
+                  <input type="password" name="confirm-pass" placeholder="Confirm password" required>
+                </label>
+              </div>
+              <label class="create__label create__label-checkbox">
+                <input type="checkbox" class="custom-checkbox__field" checked>
+                <span class="custom-checkbox__content"></span>
+                I agree to <a href="#">The Terms of Service</a>
+              </label>
+              <input type="submit" class="create__btn btn--light" value="create account">
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer" style="background-color: #03111D">
+  <div class="container">
+    <div class="subscribe" style="background-image: url('img/backing-subscribe.png');">
+      <h3 class="subscribe__title">Subscribe to our newsletter right now & get special offers</h3>
+      <div class="subscribe__form">
+        <form action="#" class="form">
+          <label for="subscribe">
+            <input id="subscribe" type="email" name="subscribe" class="subscribe__input" placeholder="Your email" required>
+          </label>
+          <button class="btn-reset subscribe__btn"><img src="img/send.svg" alt=""></button>
+        </form>
+      </div>
+    </div>
+
+    <div class="footer__wrap">
+      <div class="footer__navigation">
+        <a href="#" class="logo__footer"><img src="img/logo.svg" alt=""></a>
+        <nav class="nav-footer" title="Footer menu" data-menu>
+          <ul class="footer__list">
+            <li class="footer__item"><a href="index.html" class="footer__link active">Home</a></li>
+            <li class="footer__item"><a href="about.html" class="footer__link">About Us</a></li>
+            <li class="footer__item"><a href="training.html" class="footer__link">Trainings</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Corporate Services</a>
+              <ul class="sub-menu">
+                <li><a href="#">Private cloud training</a></li>
+                <li><a href="#">Private cloud workshops</a></li>
+                <li><a href="#">Cloud security design</a></li>
+                <li><a href="#">Cloud security assessments</a></li>
+              </ul>
+            </li>
+            <li class="footer__item"><a href="#" class="footer__link">Books</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Blog</a></li>
+            <li class="footer__item"><a href="#" class="footer__link">Contact</a></li>
+          </ul>
+        </nav>
+        <ul class="social" title="">
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--fb" aria-label="Our page in Facebook"><img src="img/facebook.svg" alt=""></a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--vk" aria-label="Our page in Twitter"><img src="img/twitter.svg" alt=""></a></li>
+          <li class="social__item"><a href="#" target="_blank" class="social__link social__link--tw" aria-label="Our page in Linkedin"><img src="img/linkedin.svg" alt=""></a></li>
+        </ul>
+      </div>
+      <div class="footer__copyright">
+        <div class="footer__design">
+          © <span class="year"></span> Charis Cloud. All Rights Reserved. Designed by <a href="https://webcapitan.com" target="_blank">Webcapitan</a>.
+        </div>
+        <div class="footer__policy">
+          <a href="#">Terms of Service</a>
+          <a href="#"> Privacy Policy</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script src="https://code.jquery.com/jquery-3.6.3.js" integrity="sha256-nQLuAZGRRcILA+6dMBOvcRh5Pe310sBpanc6+QBmyVM=" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/select2@4.1.0-rc.0/dist/js/select2.min.js"></script>
+<script src="js/main.js"></script>
+
+<div class="all_pages">
+  <div class="page_point">Pages</div>
+  <ul class="page_list">
+    <li><a href="index.html">Index</a></li>
+    <li><a href="training.html">Training and Workshop</a></li>
+    <li><a href="individual-training.html">individual Training</a></li>
+    <li><a href="books.html">Books and Publications</a></li>
+    <li><a href="contact.html">Contact</a></li>
+    <li><a href="about-us.html">About Us</a></li>
+    <li><a href="login.html">Login</a></li>
+    <li><a href="create-account.html">Create Account</a></li>
+    <li><a href="reset-password.html">Reset password</a></li>
+    <li><a href="private-training.html">Private cloud training</a></li>
+    <li><a href="profile.html">Profile Account</a></li>
+    <li><a href="orders.html">Profile Orders</a></li>
+    <li><a href="cart.html">Shopping Cart</a></li>
+    <li><a href="checkout.html">Checkout</a></li>
+  </ul>
+</div>
+
+
+  </div>
+</body>
+
+</html>
